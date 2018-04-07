@@ -13,7 +13,7 @@
         <meta name="description" content="A curated list of awesome MPS extensions/libraries, software and resources">
       
       
-        <link rel="canonical" href="https://mps.rocks/">
+        <link rel="canonical" href="http://mps.rocks/">
       
       
         <meta name="author" content="Kolja Dummann">
@@ -108,7 +108,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://mps.rocks" title="MPS Rocks" class="md-header-nav__button md-logo">
+        <a href="http://mps.rocks" title="MPS Rocks" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -125,7 +125,7 @@
                 MPS Rocks
               </span>
               <span class="md-header-nav__topic">
-                Life is short, you need Python.
+                Get yourself some MPS.
               </span>
             
           
@@ -170,7 +170,7 @@
   
 
 
-  <a href="https://github.com/coolya/mps.rocks/" title="Go to repository" class="md-source" data-md-source="github">
+  <a href="https://github.com/coolya/mps.rocks" title="Go to repository" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -219,7 +219,7 @@
   
 
 
-  <a href="https://github.com/coolya/mps.rocks/" title="Go to repository" class="md-source" data-md-source="github">
+  <a href="https://github.com/coolya/mps.rocks" title="Go to repository" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -250,9 +250,38 @@
       
     
     
-    <a href="." title="Life is short, you need Python." class="md-nav__link md-nav__link--active">
-      Life is short, you need Python.
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Get yourself some MPS.
+      </label>
+    
+    <a href="." title="Get yourself some MPS." class="md-nav__link md-nav__link--active">
+      Get yourself some MPS.
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#contributing" title="Contributing" class="md-nav__link">
+    Contributing
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -274,6 +303,22 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#contributing" title="Contributing" class="md-nav__link">
+    Contributing
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -284,8 +329,6 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/coolya/mps.rocks/edit/master/docs/index.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
-                
                 
                 <h1 id="mps-rocks">MPS rocks <a href="https://github.com/sindresorhus/awesome"><img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a></h1>
 <p>A curated list of awesome MPS extensions/libraries, software and resources.</p>
@@ -293,18 +336,60 @@
 <ul>
 <li>
 <p><a href="#awesome-MPS">Awesome MPS</a></p>
+<ul>
+<li><a href="https://github.com/CampagneLaboratory/ANTLR_MPS">ANTLR_MPS</a> - An ANTLR language for MPS, and the ToMPS language to help create MPS languages and ANTRL visitors from an ANTLR 4 grammar.</li>
+<li><a href="https://github.com/mar9000/ecmascript4mps">ecmascript4mps</a> - ECMAScript language implementation for JetBrains MPS</li>
+<li><a href="https://github.com/CampagneLaboratory/Editor2PDF">Editor2PDF</a> - Serialises editor into PDF files</li>
+<li><a href="https://github.com/premun/ingrid">ingrid</a> - Ingrid is a plugin for JetBrains MPS allowing import of ANTLRv4 grammars and create an MPS language out of it.</li>
+<li><a href="https://github.com/JetBrains/MPS-extensions">MPS Extensions</a> - Various extensions to simplify language development.</li>
+<li><a href="https://github.com/mbeddr/mps-gradle-plugin">MPS gradle plugin</a> - A Gradle plugin to build &amp; test langauges and to support various tasks related to custom RCP packaging.</li>
+<li><a href="https://github.com/vjramirez/PlantUML">PlantUML</a> - Language for PlantUML models, also useful to generate PlantUML diagrams from custom DSL.</li>
+<li><a href="https://github.com/coolya/mps-generator-editors">Simple Generator Editors</a> - Simplified editors to increase readability of generators.</li>
+<li><a href="https://github.com/DSLFoundry/mps-plaintextgen">Text Generator Plugin</a> - Alternative Textgen for JetBrains MPS using the standard model to model generation mechanisms.</li>
+</ul>
 </li>
 <li>
-<p><a href="#resources">Resources</a></p>
+<p><a href="#build-with-mps">Build with MPS</a></p>
 <ul>
-<li><a href="#learing">Learning</a></li>
-<li><a href="#twitter">Twitter</a></li>
-<li><a href="#websites">Websites</a></li>
-<li><a href="#papers">Papers</a></li>
+<li><a href="https://github.com/ftomassetti/FormatsDSL">FormatsDSL</a> - A DSL to describe formats and generate loaders</li>
+<li><a href="https://github.com/iets3/iets3.opensource">iets3</a> - Base language for system modelling and specification including basics abstractions for  components, expression, variability, etc</li>
+<li><a href="https://github.com/mbeddr/mbeddr.core">mbeddr</a> - An extensible C implementation in MPS to support embedded software development.</li>
+<li><a href="https://github.com/CampagneLaboratory/MetaR">MetaR</a> - A IDE for R for people with limited computer science background.</li>
 </ul>
 </li>
-<li><a href="#contributing">Contributing</a></li>
+<li><a href="#resources">Resources</a><ul>
+<li><a href="#learing">Learning</a><ul>
+<li><a href="https://confluence.jetbrains.com/display/MPSD20173/MPS+User%27s+Guide">MPS User Guide</a></li>
+<li><a href="http://campagnelab.org/publications/our-books/">The MPS Language Workbench</a></li>
+<li><a href="http://dslbook.org/">DSL Engineering</a> - Contains a detailed discussion of the concepts behind MPS in its Part III on language implementation.</li>
 </ul>
+</li>
+<li><a href="#twitter">Twitter</a><ul>
+<li><a href="https://twitter.com/jetbrains_mps">JetBrains MPS</a></li>
+</ul>
+</li>
+<li><a href="#websites">Websites</a><ul>
+<li><a href="https://languageengineering.io">languageengineering.io</a> - A blog focused in language engineering with many examples implemnted using MPS.</li>
+<li><a href="https://www.jetbrains.com/mps/">Official Website</a></li>
+<li><a href="https://markusvoelter.github.io/ProgrammingBasics/">Programming Basics</a> - Uses MPS to teach the basics of programming to none computer science people.</li>
+</ul>
+</li>
+<li><a href="#papers">Papers</a><ul>
+<li><a href="http://mbeddr.com/files/dasia_wortmann.pdf">Domain-Specific Languages for Efficient Satellite Control Software Development</a></li>
+<li><a href="http://mbeddr.com/files/mbeddr-cs-oopsla2015-preprint.pdf">Using C Language Extensions for Developing Embedded Software - A Case Study</a></li>
+<li><a href="http://mbeddr.com/files/sqj_2017.pdf">Automated Testing of DSLs Implementations: Experiences from Building mbeddr</a></li>
+<li><a href="http://mbeddr.com/files/sosym_2017.pdf">Lessons Learned from Developing mbeddr - A Case Study in Language Engineering with MPS</a></li>
+<li><a href="http://mbeddr.com/files/gc-sle.pdf">Efficient Development of Consistent Projectional Editors using Grammar Cells</a></li>
+<li><a href="http://mbeddr.com/files/inca-ase.pdf">IncA: A DSL for the Definition of Incremental Program Analyses</a></li>
+<li><a href="http://mbeddr.com/files/mps-df-ase.pdf">An Extensible Framework for Variable-Precision Data-Flow Analyses in MPS</a></li>
+<li><a href="http://mbeddr.com/files/projectionalEditing-sle2014.pdf">Towards Usable Projectional Editors</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="contributing">Contributing</h2>
+<p>Your contributions are always welcome! Please take a look at the contribution guidelines first.</p>
                 
                   
                 
@@ -336,11 +421,9 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-      <a href="https://github.com/vinta" class="md-footer-social__link fa fa-github"></a>
+      <a href="https://github.com/coolya" class="md-footer-social__link fa fa-github"></a>
     
-      <a href="https://twitter.com/vinta" class="md-footer-social__link fa fa-twitter"></a>
-    
-      <a href="https://www.linkedin.com/in/vinta" class="md-footer-social__link fa fa-linkedin"></a>
+      <a href="https://twitter.com/dumdidum" class="md-footer-social__link fa fa-twitter"></a>
     
   </div>
 
