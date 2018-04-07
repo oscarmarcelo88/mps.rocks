@@ -1,0 +1,14 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "MPS rocks \n\n\nA curated list of awesome MPS extensions/libraries, software and resources.\n\n\nInspired by \nawesome-python\n and \nawesome-rust\n.\n\n\n\n\n\n\nAwesome MPS\n\n\n\n\n\n\nResources\n\n\n\n\nLearning\n\n\nTwitter\n\n\nWebsites\n\n\nPapers\n\n\n\n\n\n\nContributing",
+            "title": "Life is short, you need Python."
+        },
+        {
+            "location": "/#mps-rocks",
+            "text": "A curated list of awesome MPS extensions/libraries, software and resources.  Inspired by  awesome-python  and  awesome-rust .    Awesome MPS    Resources   Learning  Twitter  Websites  Papers    Contributing",
+            "title": "MPS rocks"
+        }
+    ]
+}
